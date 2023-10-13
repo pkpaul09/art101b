@@ -4,6 +4,12 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 1px #af4b4b;
+    background-color: hsl(230, 66%, 51%);
+  }
+  
+  p {
+      font-family: "comic sans";
+      text-indent: 20pc;
+      margin-left: 10px;
   }
