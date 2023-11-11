@@ -1,6 +1,7 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Tic- tac_toe
+/ /index.js - wining over algorythms and the importance of each step
+// Author: Paul Kim
+// Date:10 26 2023
 
 // Constants
 
