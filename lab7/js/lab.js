@@ -3,26 +3,24 @@
 // Author: Paul Kim
 // Date:10/23/2023
 
-// Constants
-//Print the board before each row
-  // Loop through each row
-    //Print X, O, or Space
-    //Print a | between
-  //Print a newline at the end
-  //Print a horizontal line between
-
-  // Functions
-
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
+//sortUserName - a function that takes user input and soerts the letters of their name
+function sortUserName() {
+    var userName = window.prompt("Hi. Please tell me your name so I can fix it.");
+    console.log("userName =", userName);
+    //split string to array
+    var name Array = userName.split('');
+    console.log("nameArray =", nameArray);
+    //sort the array
+    var nameArraySort = nameArray.sort();
+    //join array back to a string
+    var nameSorted = nameArraySort.join('');
+    console.log("nameSorted +", nameSorted);
+    //Note that I could have done the above lines as a single line:
+    //  username.toLower() .split("").sort().join("")
+    return nameSorted;
 }
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
-
-// let's get this party started
-main();
+//output
+document.writeln("Oh hey, I've fixed your name:",
+    sortUserName(), "</br>");
+    
